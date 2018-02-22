@@ -1,3 +1,5 @@
+var results = require("../data/friends.js");
+
 module.exports = function(app) {
     // API GET Requests
     // Below code handles when users "visit" a page.
@@ -6,7 +8,7 @@ module.exports = function(app) {
     // ---------------------------------------------------------------------------
   
     app.get("/api/friends", function(req, res) {
-      res.json(friendData);
+      res.json(results);
     });
   
     // API POST Requests
@@ -17,7 +19,7 @@ module.exports = function(app) {
     // Then the server saves the data to the tableData array)
     // ---------------------------------------------------------------------------
   
-    app.post("/api/friends", function(req, res) {
+    // app.post("/api/friends", function(req, res) {
       // req.body is available since we're using the body-parser middleware
       // if (tableData.length < 5) {
       //   tableData.push(req.body);
@@ -31,17 +33,17 @@ module.exports = function(app) {
       
 
       
-    });
+    // });
   
     // ---------------------------------------------------------------------------
     // I added this below code so you could clear out the table while working with the functionality.
     // Don"t worry about it!
   
-    app.post("/api/clear", function() {
-      // Empty out the arrays of data
-      tableData = [];
-      waitListData = [];
+    // app.post("/api/clear", function() {
+    //   // Empty out the arrays of data
+    //   tableData = [];
+    //   waitListData = [];
   
-      console.log(tableData);
-    });
-  };
+    //   console.log(tableData);
+    // });
+};
