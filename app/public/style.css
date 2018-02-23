@@ -20,13 +20,11 @@
     font-size: 36px;
 }
 
-.question {
-    margin-bottom: 20px;
-}
-
 .answer {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
+    margin-top: -10px;
 }
 
 .questionText {
