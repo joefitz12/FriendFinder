@@ -1,3 +1,17 @@
-.valueInput {
-    display: inline-block;
+.container-fluid {
+    position: relative;
+}
+
+.container {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
 }
