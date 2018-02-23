@@ -2,7 +2,7 @@ var results = {
     result1: {
         name: "result1",
         need: "a fancy sandwich",
-        img: "../public/images/fancy-sandwich.jpeg",
+        img: "images/fancy-sandwich.jpeg",
         sleepy: 7,
         adventurous: 6,
         thoughtful: 4,
@@ -17,7 +17,7 @@ var results = {
     result2: {
         name: "result2",
         need: "a new job",
-        img: "../public/images/new-job.jpeg",
+        img: "images/new-job.jpeg",
         sleepy: 2,
         adventurous: 4,
         thoughtful: 6,
@@ -32,7 +32,7 @@ var results = {
     result3: {
         name: "result3",
         need: "a visit to the art museum",
-        img: "../public/images/art-museum.jpeg",
+        img: "images/art-museum.jpeg",
         sleepy: 4,
         adventurous: 7,
         thoughtful: 10,
@@ -47,7 +47,7 @@ var results = {
     result4: {
         name: "result4",
         need: "a nap",
-        img: "../public/images/nap.jpeg",
+        img: "images/nap.jpeg",
         sleepy: 10,
         adventurous: 2,
         thoughtful: 6,
@@ -62,7 +62,7 @@ var results = {
     result5: {
         name: "result5",
         need: "the concept of socialism",
-        img: "../public/images/socialism.jpeg",
+        img: "images/socialism.jpeg",
         sleepy: 6,
         adventurous: 5,
         thoughtful: 8,
@@ -77,7 +77,7 @@ var results = {
     result6: {
         name: "result6",
         need: "some sports",
-        img: "../public/images/socialism.jpeg",
+        img: "images/sports.jpeg",
         sleepy: 2,
         adventurous: 7,
         thoughtful: 1,
@@ -92,7 +92,7 @@ var results = {
     result7: {
         name: "result7",
         need: "a yoga sesh",
-        img: "../public/images/yoga.jpeg",
+        img: "images/yoga.jpeg",
         sleepy: 4,
         adventurous: 4,
         thoughtful: 6,
@@ -107,7 +107,7 @@ var results = {
     result8: {
         name: "result8",
         need: "a fun phone game",
-        img: "../public/images/phone-game.jpeg",
+        img: "images/phone-game.jpeg",
         sleepy: 6,
         adventurous: 2,
         thoughtful: 1,
@@ -122,7 +122,7 @@ var results = {
     result9: {
         name: "result9",
         need: "to join the clergy",
-        img: "../public/images/clergy.jpeg",
+        img: "images/clergy.jpeg",
         sleepy: 2,
         adventurous: 5,
         thoughtful: 8,

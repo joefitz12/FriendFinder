@@ -1,5 +1,7 @@
 var submission = {};
 
+$("#modal").hide();
+
 $("#submit").on("click",function(){
     
     submission = {
@@ -16,6 +18,11 @@ $("#submit").on("click",function(){
     };
     console.log(submission);
 
-    $.post("/api/submission", submission);
+    $.post("/api/submission", submission, function(data){
+        $("#modal").css("background-image", "url('" + data.img + "')");
+        $("#needReveal").text(data.need);
+        $("#modal").show();
+        $("#surveyQuestions").hide();
+    });
 });
 
